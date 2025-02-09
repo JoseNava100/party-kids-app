@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::post('login', [AuthController::class, 'login']);
-Route::post('logout', [AuthController::class, 'logout']);
-Route::resource('roles', RoleController::class);
-Route::resource('users', UserController::class);
+
+Route::middleware('auth:sanctum')->group(function(){
+    Route::resource('roles', RoleController::class);
+    Route::resource('users', UserController::class);
+    Route::post('logout', [AuthController::class, 'logout']);
+}); 
