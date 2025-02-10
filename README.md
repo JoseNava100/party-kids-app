@@ -30,8 +30,8 @@ Este proyecto es una API REST desarrollada en Laravel para la gestion de reserva
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/JoseNava100/laravel-api-rest-to-do-list
-   cd laravel-api-rest-to-do-list
+   git clone https://github.com/JoseNava100/party-kids-app
+   cd party-kids-app
    ```
 
 2. Instala las dependencias de PHP:
@@ -72,11 +72,11 @@ Este proyecto es una API REST desarrollada en Laravel para la gestion de reserva
 |--------|--------------------|---------------------------------|---------------|
 | POST   | `/api/register`    | Registrar un nuevo usuario      | No            |
 | POST   | `/api/login`       | Iniciar sesión y obtener token  | No            |
-| GET    | `/api/Task `        | Listar todas las tareas         | Sí            |
-| POST   | `/api/Task `        | Crear una nueva tarea            | Sí            |
-| GET    | `/api/Task /{id}`   | Obtener detalles de una tarea    | Sí            |
-| PUT/PATCH    | `/api/Task /{id}`   | Actualizar una tarea existente   | Sí            |
-| DELETE | `/api/Task /{id}`   | Eliminar una tarea               | Sí            |
+| GET    | `/api/ `        | Listar todas las tareas         | Sí            |
+| POST   | `/api/ `        | Crear una nueva tarea            | Sí            |
+| GET    | `/api/ /{id}`   | Obtener detalles de una tarea    | Sí            |
+| PUT/PATCH    | `/api/ /{id}`   | Actualizar una tarea existente   | Sí            |
+| DELETE | `/api/ /{id}`   | Eliminar una tarea               | Sí            |
 | POST   | `/api/logout`      | Cerrar sesión                   | Sí            |
 
 ## Autenticación
